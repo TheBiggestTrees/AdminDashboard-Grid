@@ -21,6 +21,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 9fr;
+    background-color: rgb(50, 152, 211);
+    color: white;
+    
 }
 
 .head-logo {
@@ -49,6 +52,7 @@ body {
 .optSvg {
     width: auto;
     height: 25px;
+    fill: white;
 }
 
 .header {
