@@ -269,5 +269,98 @@ button:active {
 .rightbar {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 1fr 50px 1fr; 
+    grid-template-rows: 1fr 1fr; 
+}
+
+.announcements {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+}
+
+.announcementsCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.342);
+    border-radius: 13px;
+    justify-self: center;
+    align-self: center;
+    height: 92%;
+    width: 90%;
+    padding-top: 15px;
+}
+
+.announced {
+    text-align: start;
+    margin: 0px 35px;
+    border-bottom: 1px solid rgb(43, 43, 43);
+}
+
+.announcedFinal {
+    border: none;
+    margin: 0 35px;
+}
+
+.announcedName {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.announcedDesc {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.trending {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+}
+
+.trendingCard {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    background-color: white;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.342);
+    border-radius: 13px;
+    justify-self: center;
+    align-self: center;
+    height: 92%;
+    width: 90%;
+}
+
+.trendingPerson {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.SSProfiles {
+    width: auto;
+    height: 45px;
+    margin-left: 4px;
+    margin-right: 4px;
+    align-self: center;
+    justify-self: center;
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.trendingName {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    align-self: end;
+}
+
+.trendingDesc {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(78, 78, 78);
 }
