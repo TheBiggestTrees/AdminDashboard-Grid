@@ -208,4 +208,66 @@ button:active {
     grid-auto-rows: 250px;
 }
 
+.projectTitle {
+    font-size: 18px;
+    margin-left: 25px;
+    font-weight: bold;
+    grid-area: 1 / 1 / 2 / 3;
+}
 
+.projectCard {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 15fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    justify-self: center;
+    align-self: center;
+    border-left: rgb(212, 200, 19) 4px solid;
+    border-radius: 13px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.342);
+    height: 90%;
+    width: 92%;
+    margin: 5px;
+}
+
+.projectName {
+    grid-area: 1 / 1 / 2 / 5;
+    margin-left: 13px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projectDesc {
+    margin-top: 5px;
+    margin-left: 13px;
+    font-size: 1.1rem;
+    color: rgb(68, 68, 68);
+}
+
+.interact {
+    width: auto;
+    height: 25px;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.fav {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.add {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.share {
+    grid-area: 3 / 4 / 4 / 5;
+    margin-right: 35px;
+}
+
+.rightbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px 1fr; 
+}
